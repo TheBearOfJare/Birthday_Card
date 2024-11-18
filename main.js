@@ -11,7 +11,7 @@ confetti = function() {
         confetti.style.setProperty("--left", slide+"%");
         document.body.appendChild(confetti);
 
-        //the falling animation
+        // delete confetti when animation ends
         confetti.addEventListener("animationend", function() {
             this.remove();
         });

@@ -19,3 +19,8 @@ confetti = function() {
         
     }
 }
+
+playsong = function() {
+    var audio = new Audio("YAY.mp3");
+    audio.play();
+}

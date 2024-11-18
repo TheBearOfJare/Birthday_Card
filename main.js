@@ -8,8 +8,8 @@ confetti = function() {
         confetti.style.animationDelay = Math.random() * 8 + "s";
         confetti.style.backgroundColor = "hsl(" + Math.random() * 360 + ", 100%, 50%)";
         rando = Math.random();
-        confetti.style.setProperty("--left", (random*10)+"px");
-								confetti.style.setProperty("--width", (random*100)+"%");
+        confetti.style.setProperty("--left", (rando*10)+"px");
+								confetti.style.setProperty("--width", (randoo*100)+"%");
         document.body.appendChild(confetti);
 
         // delete confetti when animation ends

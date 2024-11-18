@@ -21,6 +21,6 @@ confetti = function() {
 }
 
 playsong = function() {
-    var audio = new Audio("YAY.mp3");
+    var audio = new Audio("assets/YAY.mp3");
     audio.play();
 }

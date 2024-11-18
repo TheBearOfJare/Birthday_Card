@@ -1,7 +1,7 @@
 @keyframes confetti {
     0%   {top: -10px; width: 15px;}
-    25%  {transform: rotate(360deg); width: 5px;}
-    50%  {width: 15px; left: var(--left); width: 15px;}
+    25%  {transform: rotate(360deg); width: var(--width);}
+    50%  {width: 15px; left: var(--left); width: 10px;}
     100% {top: 120%;}
 }
 
